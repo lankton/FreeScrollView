@@ -8,19 +8,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/scene"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="hahahaha"/>
-            <ImageView
-                android:src="@drawable/scene"
-                android:layout_margin="0dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
+        </View>
     </cn.lankton.freescrollview.FreeScrollView>
 </LinearLayout>

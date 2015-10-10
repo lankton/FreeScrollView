@@ -149,10 +149,9 @@ public class FreeScrollView extends ScrollView {
 
         container.setOrientation(LinearLayout.VERTICAL);
         ScrollView.LayoutParams lpContainer = new ScrollView.LayoutParams(ScrollView.LayoutParams.MATCH_PARENT
-                , LayoutParams.MATCH_PARENT);container.setBackgroundColor(Color.RED);
+                , LayoutParams.MATCH_PARENT);
         //添加头部空间
         header = new View(mContext);
-        header.setBackgroundColor(Color.GRAY);
         LinearLayout.LayoutParams lpHeader = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,0);
         container.addView(header, lpHeader);
 
@@ -167,7 +166,6 @@ public class FreeScrollView extends ScrollView {
 
         //添加底部空间
         footer = new LinearLayout(mContext);
-        footer.setBackgroundColor(Color.GRAY);
         LinearLayout.LayoutParams lpfooter = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT
                 , ViewGroup.LayoutParams.MATCH_PARENT);
         container.addView(footer, lpfooter);
