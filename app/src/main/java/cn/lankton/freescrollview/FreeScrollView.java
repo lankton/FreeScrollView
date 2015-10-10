@@ -117,7 +117,7 @@ public class FreeScrollView extends ScrollView {
         int height = -delta + footer.getHeight();
         lp.height = height > 0 ? height : 0;
         footer.setLayoutParams(lp);
-        if(lp.height > footerOriginHeight) {
+        if(footer.getHeight() > footerOriginHeight) {
             this.scrollTo(0, container.getHeight() - this.getHeight());
         }
 
